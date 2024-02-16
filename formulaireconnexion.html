@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire connexion accessible</title>
+    <meta name="description" content="Formulaire de connexion accessible pour un site web.">
+    <link rel="stylesheet" href="formulaireconnexion.css">
+</head>
+
+<body>
+
+<header>
+    <a href="Accueil.html">
+        <img src="image/zozor_classe.webp" alt="Logo de la page" aria-label="Revenir au menu"/>
+    </a>
+</header>
+
+<main>
+
+    <form action="Accueil.html">
+        <div class="form-group">
+            <label for="Email" id="emailLabel">Email :</label>
+            <input required type="email" name="email" id="Email" aria-labelledby="emailLabel" aria-required="true">
+        </div>
+
+        <div class="form-group">
+            <label for="Password" id="passwordLabel">Mot de passe :</label>
+            <input required type="password" name="password" id="Password" aria-labelledby="passwordLabel" aria-required="true">
+        </div>
+
+        <button type="submit" aria-label="Bouton qui permet d'envoyer les champs saisis et de ce connecter">Se connecter</button>
+    </form>
+
+</main>
+
+<footer>
+    <nav>
+        <ul>
+            <li><a href="FooterFiles/mentions_legales.html">Mentions légales</a></li>
+            <li><a href="FooterFiles/plan_site.html">Carte du site web</a></li>
+            <li><a href="FooterFiles/contact.html">Informations de contact</a></li>
+            <li><a href="FooterFiles/identification_entreprise.html">Informations sur l’identification de l’entreprise</a></li>
+            <li><a href="FooterFiles/telechargement_documents.html">Liens vers le téléchargement de documents</a></li>
+        </ul>
+    </nav>
+</footer>
+
+</body>
+</html>
