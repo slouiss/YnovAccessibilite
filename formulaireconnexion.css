@@ -31,12 +31,33 @@ main {
     align-items: center;
 }
 
+.required {
+    color: red;
+    margin-left: 5px;
+}
+
+legend {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 form {
     width: 300px;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+legend {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .form-group {
